@@ -1,0 +1,97 @@
+Module 2
+HTML Intro
+Tags
+Elements
+Form Elements
+Intro to CSS
+Selectors
+flex
+media queries
+Icons and units
+
+Bootstrap 4.7
+Project:
+1.Pan card
+2.Social cards
+
+Netlify deployment
+
+
+Self-Closing:Non-SelfClosing
+
+self-closing:meta etc
+Non-selfClosing: title,body...
+
+Elements:
+Combination of Tag+content
+p Tag
+p represents the Paragraph Tag
+h1-h6 Tags size
+
+Linking the document
+a tag:
+a represents the anchor tag(hyperlinking)
+e.g. <a href="https://www.hotstar.com/in/home?ref=%2Fin">Hotstar</a>  (to open on same page)
+href represents the attributes
+attributes represents the additional information
+href hold link for the document where it has to redirected.
+
+By default a tag opens the document on the same page
+we have one more attribute called traget
+target=_blank" represnet the document that has to be open in the new tab
+
+div sectionl article
+css Intro
+types of css
+Block level as well as the Inline Elements
+important!
+
+css:cascaded style sheet
+to add more styling properties
+
+Types of CSS
+1. Inline
+2. Internal
+3. External
+
+Inline: It is added to the single Element
+syntax:<div style="background-color:green;">this is div</div>
+
+Internal CSS
+multiple Elements
+
+Selectors:
+class, id, tag, universal
+1)
+class selectors:
+It is used to apply css properties for more than 1 elelments
+syntax:.classname{
+
+}
+internal css head tag kula tha irukum eg style tag
+2)
+id selectors
+it is used to apply for a single elelment
+3) 
+tag selectors:
+if you wanted to apply for a group of Tags
+syntax: tagname{
+    
+}
+
+priorities
+id>class>tag
+ 
+for a single element can i apply inline css and internal css
+yes but inline css has more priority than internal css> external css
+
+to overwrite the highest priority we use "important"
+
+for external css create index.css file 
+
+Block level element:
+They always start on the new line
+p, div, section, article....
+Inline: they always start on the same line
+we can convert block level to inline also inline to block vice versa
+using property called display
